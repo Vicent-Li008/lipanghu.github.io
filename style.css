@@ -1,0 +1,89 @@
+/* 全局样式：统一网站字体、边距，避免杂乱（新手无需理解，复制即可） */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "微软雅黑", sans-serif; /* 网站默认字体，清晰易读 */
+}
+
+/* 网页背景样式：浅灰色背景，不刺眼，适合长时间浏览 */
+body {
+    background-color: #621b61; /* 背景色，可按需修改（比如#fff是白色） */
+    color: #333; /* 文字颜色，深灰色，保护视力 */
+    line-height: 1.6; /* 行高，让文字间距更舒适，易读 */
+}
+
+/* 网站头部样式：标题和导航栏，和首页风格统一 */
+header {
+    background-color: #4169e1; /* 头部背景色（蓝色），显眼不突兀 */
+    color: white; /* 头部文字颜色（白色），对比清晰 */
+    text-align: center; /* 头部内容居中显示 */
+    padding: 20px 0; /* 上下留白20px，让头部更饱满，不拥挤 */
+}
+
+/* 导航栏样式：让导航链接横向排列，更美观 */
+nav a {
+    color: white; /* 导航文字颜色（白色） */
+    text-decoration: none; /* 去掉链接默认的下划线，更整洁 */
+    margin: 0 15px; /* 导航链接之间的间距，避免拥挤 */
+    font-size: 16px; /* 导航文字大小，适中易点 */
+}
+
+/* 导航交互：鼠标放到导航上变色，增加体验感（新手可不用改） */
+nav a:hover {
+    color: #ffd700; /* 鼠标悬浮时，导航文字变成金色 */
+}
+
+/* 网站主体样式：让核心内容居中，不超出屏幕 */
+main {
+    max-width: 1000px; /* 主体最大宽度，避免内容太宽看着累 */
+    margin: 30px auto; /* 上下留白30px，左右自动居中 */
+    padding: 0 20px; /* 左右留白，手机上浏览也不拥挤 */
+}
+
+/* 板块样式：每个内容板块（首页、关于我、我的作品）统一美化 */
+section {
+    background-color: white; /* 板块背景白色，干净整洁 */
+    padding: 25px; /* 板块内部留白，内容不贴边 */
+    margin-bottom: 20px; /* 板块之间的间距，区分清晰 */
+    border-radius: 8px; /* 板块边角圆角，不尖锐，更柔和 */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* 轻微阴影，增加立体感 */
+}
+
+/* 板块标题样式：和头部颜色呼应，更统一 */
+h2 {
+    color: #4169e1; /* 标题颜色，和头部背景色一致 */
+    margin-bottom: 15px; /* 标题下方留白，区分标题和内容 */
+    border-bottom: 2px solid #f5f5f5; /* 标题下方浅灰色横线，更清晰 */
+    padding-bottom: 10px; /* 标题下方留白，横线不贴标题 */
+}
+
+/* 图片样式：图片自适应，避免变形、超出屏幕 */
+img {
+    width: 100%; /* 图片宽度适应板块，不超出 */
+    height: auto; /* 图片高度自动调整，避免变形 */
+    border-radius: 8px; /* 图片圆角，和板块呼应 */
+    margin: 15px 0; /* 图片上下留白，不贴文字 */
+}
+
+/* 列表样式：美化“我的作品”列表，更整洁 */
+ul {
+    list-style: none; /* 去掉列表默认的圆点，更简洁 */
+    margin-left: 20px; /* 列表整体右移，不贴边 */
+}
+
+ul li {
+    margin: 8px 0; /* 列表项之间的间距 */
+    padding-left: 15px; /* 列表项左留白 */
+    border-left: 3px solid #4169e1; /* 列表项左侧蓝色线条，更醒目 */
+}
+
+/* 网站底部样式：和头部呼应，整体更协调 */
+footer {
+    background-color: #4169e1; /* 底部背景色，和头部一致 */
+    color: white; /* 底部文字颜色，白色清晰 */
+    text-align: center; /* 底部内容居中 */
+    padding: 15px 0; /* 上下留白，不拥挤 */
+    margin-top: 30px; /* 底部和主体之间的间距 */
+}
+                  
